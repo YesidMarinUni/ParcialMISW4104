@@ -30,4 +30,13 @@ export class ListarPlantaComponent implements OnInit {
       }
     });
   }
+
+  get totalPlantasInterior(): number {
+    return this.plantas.filter(p => p.tipo.toLowerCase() === 'interior').length;
+  }
+  
+  get totalPlantasExterior(): number {
+    return this.plantas.filter(p => p.tipo.toLowerCase() === 'exterior').length;
+  }
+  
 }
