@@ -1,6 +1,13 @@
-# EvaluacionSemana4
+# Parcial Semana 4
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+
+## Result
+
+This is the result.
+
+<img width="887" alt="image" src="https://github.com/user-attachments/assets/06613c54-b64d-4b14-9f7f-7a5753dc0ab8" />
+
 
 ## Development server
 
