@@ -1,16 +1,18 @@
 /* tslint:disable:no-unused-variable */
 
-import { TestBed, async, inject } from '@angular/core/testing';
-import { PlantaServiceService } from './planta.service';
+import { TestBed, inject } from '@angular/core/testing';
+import { PlantaService } from './planta.service';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 describe('Service: PlantaService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [PlantaServiceService]
+      imports: [HttpClientTestingModule],
+      providers: [PlantaService]
     });
   });
 
-  it('should ...', inject([PlantaServiceService], (service: PlantaServiceService) => {
+  it('should ...', inject([PlantaService], (service: PlantaService) => {
     expect(service).toBeTruthy();
   }));
 });

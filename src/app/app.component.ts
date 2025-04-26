@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'evaluacion_semana_4';
+  title = 'Viñero El Otoño';
 }
