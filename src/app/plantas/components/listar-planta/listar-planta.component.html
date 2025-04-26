@@ -1,0 +1,22 @@
+<!-- generate a table of plants -->
+
+<table class="table w-75">
+  <thead class="table-dark">
+    <tr>
+      <th colspan="2">#</th>
+      <th colspan="2">Nombre común</th>
+      <th colspan="2">Tipo</th>
+      <th colspan="2">Clima</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let planta of plantas">
+      <td colspan="2" class="fw-bold">{{ planta.id }}</td>
+      <td colspan="2">{{ planta.nombre_comun }}</td>
+      <td colspan="2">{{ planta.tipo }}</td>
+      <td colspan="2">{{ planta.clima }}</td>
+    </tr>
+  </tbody>
+</table>
+
